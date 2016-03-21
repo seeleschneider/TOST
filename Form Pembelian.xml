@@ -1,0 +1,121 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Form Pembelian</h:title>
+    <model>
+      <instance>
+        <data id="build_Form-Pembelian_1458012142">
+          <meta>
+            <instanceID/>
+          </meta>
+          <namabarang/>
+          <pihakpembeli/>
+          <jenisbarang/>
+          <keteranganbarang/>
+          <jumlahbarang/>
+          <tempatpembelian/>
+          <tanggalbeli/>
+          <hargaperunit/>
+          <hargatotal/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/namabarang:label">
+            <value>Nama Barang</value>
+          </text>
+          <text id="/data/pihakpembeli:label">
+            <value>Pihak Pembeli</value>
+          </text>
+          <text id="/data/pihakpembeli:hint">
+            <value>Diisi dengan nama, contoh: LPSI, Tata Usaha, Pak Iyan, dsb.</value>
+          </text>
+          <text id="/data/jenisbarang:label">
+            <value>Jenis Barang</value>
+          </text>
+          <text id="/data/jenisbarang:hint">
+            <value>Diisi dengan kategori, contoh: Alat Musik, Proyektor, dsb.</value>
+          </text>
+          <text id="/data/keteranganbarang:label">
+            <value>Keterangan</value>
+          </text>
+          <text id="/data/keteranganbarang:hint">
+            <value>Diisi dengan spesifikasi dari barang yang akan dibeli, contoh: Warna, Kondisi, dsb.</value>
+          </text>
+          <text id="/data/jumlahbarang:label">
+            <value>Jumlah Barang</value>
+          </text>
+          <text id="/data/jumlahbarang:hint">
+            <value>Diisi jumlah barang yang akan dibeli (pcs)</value>
+          </text>
+          <text id="/data/tempatpembelian:label">
+            <value>Tempat Pembelian</value>
+          </text>
+          <text id="/data/tanggalbeli:label">
+            <value>Tanggal Pembelian</value>
+          </text>
+          <text id="/data/tanggalbeli:hint">
+            <value>Diisi tanggal pembelian akan dilakukan</value>
+          </text>
+          <text id="/data/hargaperunit:label">
+            <value>Harga Per Unit</value>
+          </text>
+          <text id="/data/hargaperunit:hint">
+            <value>Diisi harga per unit, misal: Rp 12.000 (12 unit), maka diisi Rp 1000 per unit</value>
+          </text>
+          <text id="/data/hargatotal:label">
+            <value>Harga Total</value>
+          </text>
+          <text id="/data/hargatotal:hint">
+            <value>Diisi harga total dari pembelian</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/namabarang" type="string" required="true()"/>
+      <bind nodeset="/data/pihakpembeli" type="string" required="true()"/>
+      <bind nodeset="/data/jenisbarang" type="string" required="true()"/>
+      <bind nodeset="/data/keteranganbarang" type="string" required="true()"/>
+      <bind nodeset="/data/jumlahbarang" type="int" required="true()"/>
+      <bind nodeset="/data/tempatpembelian" type="string" required="true()"/>
+      <bind nodeset="/data/tanggalbeli" type="date" required="true()"/>
+      <bind nodeset="/data/hargaperunit" type="int" required="true()"/>
+      <bind nodeset="/data/hargatotal" type="int" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/namabarang">
+      <label ref="jr:itext('/data/namabarang:label')"/>
+    </input>
+    <input ref="/data/pihakpembeli">
+      <label ref="jr:itext('/data/pihakpembeli:label')"/>
+      <hint ref="jr:itext('/data/pihakpembeli:hint')"/>
+    </input>
+    <input ref="/data/jenisbarang">
+      <label ref="jr:itext('/data/jenisbarang:label')"/>
+      <hint ref="jr:itext('/data/jenisbarang:hint')"/>
+    </input>
+    <input ref="/data/keteranganbarang">
+      <label ref="jr:itext('/data/keteranganbarang:label')"/>
+      <hint ref="jr:itext('/data/keteranganbarang:hint')"/>
+    </input>
+    <input ref="/data/jumlahbarang">
+      <label ref="jr:itext('/data/jumlahbarang:label')"/>
+      <hint ref="jr:itext('/data/jumlahbarang:hint')"/>
+    </input>
+    <input ref="/data/tempatpembelian">
+      <label ref="jr:itext('/data/tempatpembelian:label')"/>
+    </input>
+    <input ref="/data/tanggalbeli">
+      <label ref="jr:itext('/data/tanggalbeli:label')"/>
+      <hint ref="jr:itext('/data/tanggalbeli:hint')"/>
+    </input>
+    <input ref="/data/hargaperunit">
+      <label ref="jr:itext('/data/hargaperunit:label')"/>
+      <hint ref="jr:itext('/data/hargaperunit:hint')"/>
+    </input>
+    <input ref="/data/hargatotal">
+      <label ref="jr:itext('/data/hargatotal:label')"/>
+      <hint ref="jr:itext('/data/hargatotal:hint')"/>
+    </input>
+  </h:body>
+</h:html>
