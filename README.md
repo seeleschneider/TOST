@@ -23,3 +23,6 @@ Formulir ini merupakan form yang harus diisi sebelum melakukan pembelian barang 
 
 ### Link Menuju Form Pembelian.xml
 * https://github.com/seeleschneider/TOST/blob/master/Form%20Pembelian.xml
+
+### Link Menuju Form Pembelian.doc
+* https://github.com/seeleschneider/TOST/blob/master/form%20pembelian.doc
