@@ -21,4 +21,5 @@ Formulir ini merupakan form yang harus diisi sebelum melakukan pembelian barang 
 * Update tipe data "Tempat Pembelian" dari Location menjadi Text
 * Testing pengisian form menggunakan ODK Collect, Bluestack
 
-### Contoh Screenshot Dokumentasi
+### Link Menuju Form Pembelian.xml
+* https://github.com/seeleschneider/TOST/blob/master/Form%20Pembelian.xml
