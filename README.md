@@ -26,3 +26,6 @@ Formulir ini merupakan form yang harus diisi sebelum melakukan pembelian barang 
 
 ### Link Menuju Form Pembelian.doc
 * https://github.com/seeleschneider/TOST/blob/master/form%20pembelian.doc
+
+### Contoh Screenshot
+![contoh] (https://drive.google.com/open?id=0B_4WY7r8ptAQVlAtNk9LamgtV0U "contoh")
