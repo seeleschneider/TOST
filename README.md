@@ -30,4 +30,4 @@ Formulir ini merupakan form yang harus diisi sebelum melakukan pembelian barang 
 ### Contoh Screenshot
 ![contoh][contoh]
 
-[contoh]: https://drive.google.com/open?id=0B_4WY7r8ptAQVlAtNk9LamgtV0U "contoh"
+[contoh]: https://drive.google.com/file/d/0B_4WY7r8ptAQVlAtNk9LamgtV0U/view?usp=sharing "contoh"
